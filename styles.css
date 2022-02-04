@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Outfit&display=swap');
+
+body{
+    font-family: 'Outfit', sans-serif;
+}
+
+:root{
+    --primary-color: #8A39E1;
+    --light-color: #9C51E0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: red solid 1px; */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+.logo {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.navbar {
+    margin-left: auto;
+}
+
+.nav-item {
+    display: inline;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.main{
+    display: flex;
+    margin: 1rem;
+}
+
+.main-body-text{
+    margin: 1rem;
+}
+
+.main-body-heading{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.main-body-subtitle{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.main-body-buttons{
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.primary-button{
+    margin: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    border: none;
+}
+
+.secondary-button{
+    margin: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.primary-button:hover{
+    background-color: var(--light-color);
+}
+
+.main-body-img{
+    height: 300px;
+    width: 300px;
+}
