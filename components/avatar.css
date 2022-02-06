@@ -1,0 +1,21 @@
+@import url(https://feather-com.netlify.app/styles.css);
+
+*{
+    outline: red solid 1px;
+}
+
+.page-content{
+    display: flex;
+}
+
+.sidebar{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.sidebar-item{
+    text-decoration: none;
+    padding: 1rem;
+    margin: 1rem;
+}
+
