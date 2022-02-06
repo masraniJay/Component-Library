@@ -7,6 +7,8 @@ body{
 :root{
     --primary-color: #8A39E1;
     --light-color: #B667F1;
+    --white-color: white;
+    --black-color: black;
 }
 
 * {
@@ -89,31 +91,31 @@ body{
     padding: 10px;
     text-decoration: none;
     border-radius: 10px;
-    color: black;
+    color: var(--black-color);
     background-color: var(--primary-color);
     cursor: pointer;
     border: none;
-    box-shadow: black 5px 5px 5px;
+    box-shadow: var(--black-color) 5px 5px 5px;
 }
 
 .secondary-button{
     margin: 0 1rem;
     padding: 10px;
     border-radius: 10px;
-    background-color: white;
+    background-color: var(--white-color);
     cursor: pointer;
-    border: black solid 1px;
-    box-shadow: black 5px 5px 5px;
+    border: var(--black-color) solid 1px;
+    box-shadow: var(--black-color) 5px 5px 5px;
 }
 
 .primary-button:hover{
     background-color: var(--light-color);
-    color: white;
+    color: var(--white-color);
     transition: 0.8s;
 }
 
 .secondary-button:hover{
-    color: white;
+    color: var(--white-color);
     background-color: var(--light-color);
     transition: 0.8s;
 }
