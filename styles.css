@@ -6,7 +6,7 @@ body{
 
 :root{
     --primary-color: #8A39E1;
-    --light-color: #9C51E0;
+    --light-color: #B667F1;
 }
 
 * {
@@ -24,7 +24,16 @@ body{
 
 .logo {
     margin: 1rem;
-    padding: 1rem;
+    /* padding: 1rem; */
+    font-weight: bold;
+    font-size: x-large;
+    text-decoration: none;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.logo:hover{
+    color: var(--light-color);
 }
 
 .navbar {
@@ -34,57 +43,77 @@ body{
 .nav-item {
     display: inline;
     margin: 1rem;
-    padding: 1rem;
+    /* padding: 1rem; */
+    font-weight: bold;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.logo-name{
+    color: var(--primary-color);
 }
 
 .main{
     display: flex;
     margin: 1rem;
+    justify-content: center;
+    align-items: center;
 }
 
-.main-body-text{
-    margin: 1rem;
+.main-body{
+    margin: 2rem 20rem;
 }
 
-.main-body-heading{
-    margin: 1rem;
+.main-heading{
+    font-size: xx-large;
+    font-weight: bold;
+    /* margin: 1rem; */
     padding: 1rem;
 }
 
-.main-body-subtitle{
-    margin: 1rem;
+.main-subtitle{
+    /* margin: 1rem; */
     padding: 1rem;
+    font-size: normal;
+    font-weight: normal;
 }
 
-.main-body-buttons{
-    margin: 1rem;
+.main-buttons{
+    /* margin: 1rem; */
     padding: 1rem;
     text-align: center;
 }
 
 .primary-button{
-    margin: 1rem;
+    margin: 0 1rem;
     padding: 10px;
+    text-decoration: none;
     border-radius: 10px;
+    color: black;
     background-color: var(--primary-color);
     cursor: pointer;
     border: none;
+    box-shadow: black 5px 5px 5px;
 }
 
 .secondary-button{
-    margin: 1rem;
+    margin: 0 1rem;
     padding: 10px;
     border-radius: 10px;
     background-color: white;
     cursor: pointer;
-    border: none;
+    border: black solid 1px;
+    box-shadow: black 5px 5px 5px;
 }
 
 .primary-button:hover{
     background-color: var(--light-color);
+    color: white;
+    transition: 0.8s;
 }
 
-.main-body-img{
-    height: 300px;
-    width: 300px;
+.secondary-button:hover{
+    color: white;
+    background-color: var(--light-color);
+    transition: 0.8s;
 }
