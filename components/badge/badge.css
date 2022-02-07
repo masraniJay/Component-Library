@@ -1,0 +1,29 @@
+@import url(https://feather-com.netlify.app/styles.css);
+
+.badge-base{
+    font-size: large;
+    padding: 1rem;
+    width: fit-content;
+    position: relative;
+    color: var(--primary-color);
+    /* outline: red solid 1px; */
+}
+
+.badge{
+    position: absolute;
+    font-size: small;
+    padding: 0.3rem;
+    width: 1.2rem;
+    top: 0.4rem;
+    right: 0;
+    background-color: var(--primary-color);
+    color: var(--black-color);
+    border-radius: 50%;
+    /* outline: red solid 1px; */
+}
+
+.badge-img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
