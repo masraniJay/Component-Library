@@ -23,7 +23,12 @@
 }
 
 .badge-img{
+    margin: 0;
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
+}
+
+.fa-home{
+    font-size: 2rem;
 }
