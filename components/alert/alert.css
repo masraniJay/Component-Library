@@ -1,0 +1,27 @@
+@import url(https://feather-com.netlify.app/styles.css);
+
+.alert{
+    border-radius: 1rem;
+    padding: 0rem 1rem;
+    margin: 1rem auto;
+    width: 18rem;
+    box-shadow: var(--primary-color) 0.1rem 0.1rem 0.2rem 0rem;
+    cursor: pointer;
+    line-height: 2rem;
+}
+
+.alert-success{
+    background-color: green;
+}
+
+.alert-error{
+    background-color: red;
+}
+
+.alert-warning{
+    background-color: yellow;
+}
+
+.alert-info{
+    background-color: aqua;
+}
