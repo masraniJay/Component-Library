@@ -1,0 +1,68 @@
+@import url(https://feather-com.netlify.app/styles.css);
+
+.btn{
+    padding: 0.6rem;
+    margin: 0rem 1rem;
+    border-radius: 0.6rem;
+    width: 6rem;
+    cursor: pointer;
+    border: none;
+    box-shadow: var(--black-color) 0rem 0.2rem 0.4rem 0rem;
+}
+
+.btn-primary{
+    background-color: var(--primary-color);
+}
+
+.btn-primary:hover{
+    color: var(--white-color);
+    background-color: var(--light-color);
+    transition: 0.8s;
+}
+
+.btn-basic{
+    background-color: var(--light-color);
+}
+
+.btn-basic:hover{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    transition: 0.8s;
+}
+
+.btn-link{
+    color: blue;
+    text-decoration: underline;
+}
+
+.btn-disable{
+    border-radius: 0;
+    box-shadow: none;
+    cursor: not-allowed;
+}
+
+.btn-floating{
+    margin: 0rem 1rem;
+    height: 3rem;
+    width: 3rem;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    color: var(--white-color);
+    font-size: larger;
+    background-color: var(--primary-color);
+    box-shadow: var(--black-color) 0rem 0.2rem 0.4rem 0rem;
+}
+
+.btn-icon{
+    margin: 0rem 2rem;
+    font-size: xx-large;
+    border: none;
+    cursor: pointer;
+    background-color: inherit;
+    color: var(--primary-color);
+}
+
+.btn-icon:hover{
+    color: var(--light-color);
+}
