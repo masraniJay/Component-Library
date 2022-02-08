@@ -1,0 +1,23 @@
+@import url(https://feather-com.netlify.app/styles.css);
+
+.avatar{
+    margin: 2rem;
+    width: 5rem;
+    height: 5rem;
+    border: var(--black-color) solid 1px;
+}
+
+.avatar-basic{
+    border-radius: 50%;
+}
+
+
+.avatar-sm{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.avatar-lg{
+    width: 7rem;
+    height: 7rem;
+}
