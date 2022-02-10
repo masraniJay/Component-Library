@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a0e1d36fc8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
+    <title>Cards</title>
+</head>
+
+<body>
+    <header class="header">
+        <a class="logo" href="../../index.html">Feather UI</a>
+        <div class="navbar">
+            <ul>
+                <li class="nav-item"><a href="../../index.html">Home</a></li>
+                <li class="nav-item"><a href="../avatar/avatar.html">Documentation</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="page-content">
+        <div class="sidebar">
+            <ul class="sidebar-list">
+                <li><a class="sidebar-item" href="../../components/avatar/avatar.html">Avatar</a></li>
+                <li><a class="sidebar-item" href="../../components/alert/alert.html">Alert</a></li>
+                <li><a class="sidebar-item" href="../../components/badge/badge.html">Badge</a></li>
+                <li><a class="sidebar-item" href="../../components/button/button.html">Button</a></li>
+                <li class="current-page"><a class="sidebar-item" href="card.html">Card</a></li>
+                <li><a class="sidebar-item" href="../../components/image/image.html">Image</a></li>
+                <li><a class="sidebar-item" href="../../components/input/input.html">Input</a></li>
+                <li><a class="sidebar-item" href="../../components/list/list.html">List</a></li>
+                <li><a class="sidebar-item" href="../../components/navigation/navigation.html">Navigation</a></li>
+                <li><a class="sidebar-item" href="../../components/snackbar/snackbar.html">Snackbar</a></li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <h1 class="current-item">Card</h1>
+            <p class="description">
+                CSS cards are great for organizing and enhancing a website's user interface. Each card is uniquely
+                designed to make it easy for users to read the card content. CSS cards are great for organizing and
+                enhancing a website's user interface. Each card is uniquely designed to make it easy for users to read
+                the card content.
+                <br>
+                <br>
+                Cards contain content and actions about a single subject.
+            </p>
+
+            <div class="section">
+                <h4 class="current-item">Basic Card</h4>
+                <div>
+                    <div class="card">
+                        <img class="card-image" src="../../assets/card/nature.jpg" />
+                        <div class="card-title">
+                            <h3>Our Changing Planet</h3>
+                            <p>by Kurt Wagner</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Visit ten places on our planet that are undergoing the biggest changes today.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="card-button">READ</button>
+                            <button class="card-button">BOOKMARK</button>
+                            <i class="card-icon fa fa-heart-o" aria-hidden="true"></i>
+                            <i class="card-icon fa fa-share-alt" aria-hidden="true"></i>
+                            <i class="card-icon fa fa-ellipsis-v" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="code-example">
+                    <pre>
+                        <code class="language-html">
+                          <div class="language-markup">
+                            <div class="card">
+                                <img class="card-image" src="../../assets/card/nature.jpg" />
+                                <div class="card-title">
+                                    <h3>Our Changing Planet</h3>
+                                    <p>by Kurt Wagner</p>
+                                </div>
+                                <div class="card-text">
+                                    <p>Visit ten places on our planet that are undergoing the biggest changes today.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <button class="card-button">READ</button>
+                                    <button class="card-button">BOOKMARK</button>
+                                    <i class="card-icon fa fa-heart-o" aria-hidden="true"></i>
+                                    <i class="card-icon fa fa-share-alt" aria-hidden="true"></i>
+                                    <i class="card-icon fa fa-ellipsis-v" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                          </div>
+                        </code>
+                    </pre>
+                </div>
+            </div>
+
+            <div class="section">
+                <h4 class="current-item">Card with text over media</h4>
+                <div>
+                    <div class="card card-height">
+                        <div class="position">
+                            <img class="card-image card-image-2" src="../../assets/card/nature.jpg" />
+                            <div class="card-title absolute">
+                                <h3>Our Changing Planet</h3>
+                                <p>by Kurt Wagner</p>
+                            </div>
+                        </div>
+                        <div class="card-text">
+                            <p>Visit ten places on our planet that are undergoing the biggest changes today.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="card-button">READ</button>
+                            <button class="card-button">BOOKMARK</button>
+                            <i class="card-icon fa fa-heart-o" aria-hidden="true"></i>
+                            <i class="card-icon fa fa-share-alt" aria-hidden="true"></i>
+                            <i class="card-icon fa fa-ellipsis-v" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="code-example">
+                    <pre>
+                        <code class="language-html">
+                          <div class="language-markup">
+                            <div class="card card-height">
+                                <div class="position">
+                                    <img class="card-image card-image-2" src="../../assets/card/nature.jpg" />
+                                    <div class="card-title absolute">
+                                        <h3>Our Changing Planet</h3>
+                                        <p>by Kurt Wagner</p>
+                                    </div>
+                                </div>
+                                <div class="card-text">
+                                    <p>Visit ten places on our planet that are undergoing the biggest changes today.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <button class="card-button">READ</button>
+                                    <button class="card-button">BOOKMARK</button>
+                                    <i class="card-icon fa fa-heart-o" aria-hidden="true"></i>
+                                    <i class="card-icon fa fa-share-alt" aria-hidden="true"></i>
+                                    <i class="card-icon fa fa-ellipsis-v" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                          </div>
+                        </code>
+                    </pre>
+                </div>
+            </div>
+
+            <div class="section">
+                <h4 class="current-item">Card with heading</h4>
+                <div>
+                    <div class="card">
+                        <img class="card-image" src="../../assets/card/nature.jpg" />
+                        <div class="card-title card-title-2">
+                            <h3>Our Changing Planet</h3>
+                            <p>by Kurt Wagner</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Visit ten places on our planet that are undergoing the biggest changes today.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="card-button">READ</button>
+                            <button class="card-button">BOOKMARK</button>
+                            <i class="card-icon fa fa-heart-o" aria-hidden="true"></i>
+                            <i class="card-icon fa fa-share-alt" aria-hidden="true"></i>
+                            <i class="card-icon fa fa-ellipsis-v" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="code-example">
+                    <pre>
+                        <code class="language-html">
+                          <div class="language-markup">
+                            <div class="card">
+                                <img class="card-image" src="../../assets/card/nature.jpg" />
+                                <div class="card-title card-title-2">
+                                    <h3>Our Changing Planet</h3>
+                                    <p>by Kurt Wagner</p>
+                                </div>
+                                <div class="card-text">
+                                    <p>Visit ten places on our planet that are undergoing the biggest changes today.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <button class="card-button">READ</button>
+                                    <button class="card-button">BOOKMARK</button>
+                                    <i class="card-icon fa fa-heart-o" aria-hidden="true"></i>
+                                    <i class="card-icon fa fa-share-alt" aria-hidden="true"></i>
+                                    <i class="card-icon fa fa-ellipsis-v" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                          </div>
+                        </code>
+                    </pre>
+                </div>
+            </div>
+
+            <div class="section">
+                <h4 class="current-item">Horizontal Card</h4>
+                <div>
+                    <div class="card card-horizontal-height">
+                        <div class="card-horizontal">
+                            <img class="card-image card-image-horizontal" src="../../assets/card/nature.jpg" />
+                            <div class="card-title">
+                                <h3>Our Changing Planet</h3>
+                                <p>by Kurt Wagner</p>
+                            </div>
+                        </div>
+                        <div class="card-text">
+                            <p>Visit ten places on our planet that are undergoing the biggest changes today.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="card-button">READ</button>
+                            <button class="card-button">BOOKMARK</button>
+                            <i class="card-icon fa fa-heart-o" aria-hidden="true"></i>
+                            <i class="card-icon fa fa-share-alt" aria-hidden="true"></i>
+                            <i class="card-icon fa fa-ellipsis-v" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            
+              <div class="code-example">
+                <pre>
+                        <code class="language-html">
+                          <div class="language-markup">
+                            <div class="card card-horizontal-height">
+                                <div class="card-horizontal">
+                                    <img class="card-image card-image-horizontal" src="../../assets/card/nature.jpg" />
+                                    <div class="card-title">
+                                        <h3>Our Changing Planet</h3>
+                                        <p>by Kurt Wagner</p>
+                                    </div>
+                                </div>
+                                <div class="card-text">
+                                    <p>Visit ten places on our planet that are undergoing the biggest changes today.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <button class="card-button">READ</button>
+                                    <button class="card-button">BOOKMARK</button>
+                                    <i class="card-icon fa fa-heart-o" aria-hidden="true"></i>
+                                    <i class="card-icon fa fa-share-alt" aria-hidden="true"></i>
+                                    <i class="card-icon fa fa-ellipsis-v" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                          </div>
+                        </code>
+                    </pre>
+            </div>
+
+            <div class="section">
+                <h4 class="current-item">Card with a badge</h4>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-badge">Trending</div>
+                            <img class="card-image" src="../../assets/card/nature.jpg" />
+                        </div>
+                        <div class="card-title">
+                            <h3>Our Changing Planet</h3>
+                            <p>by Kurt Wagner</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Visit ten places on our planet that are undergoing the biggest changes today.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="card-button">READ</button>
+                            <button class="card-button">BOOKMARK</button>
+                            <i class="card-icon fa fa-heart-o only-button" aria-hidden="true"></i>
+                            <i class="card-icon fa fa-share-alt only-button" aria-hidden="true"></i>
+                            <i class="card-icon fa fa-ellipsis-v only-button" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="code-example">
+                    <pre>
+                        <code class="language-html">
+                          <div class="language-markup">
+                            <div class="card">
+                                <div class="card-header">
+                                    <div class="card-badge">Trending</div>
+                                    <img class="card-image" src="../../assets/card/nature.jpg" />
+                                </div>
+                                <div class="card-title">
+                                    <h3>Our Changing Planet</h3>
+                                    <p>by Kurt Wagner</p>
+                                </div>
+                                <div class="card-text">
+                                    <p>Visit ten places on our planet that are undergoing the biggest changes today.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <button class="card-button">READ</button>
+                                    <button class="card-button">BOOKMARK</button>
+                                    <i class="card-icon fa fa-heart-o only-button" aria-hidden="true"></i>
+                                    <i class="card-icon fa fa-share-alt only-button" aria-hidden="true"></i>
+                                    <i class="card-icon fa fa-ellipsis-v only-button" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                          </div>
+                        </code>
+                    </pre>
+            </div>
+
+            <div class="section">
+                <h4 class="current-item">Card with dismiss</h4>
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-badge">Trending</div>
+                            <dic class="card-dismiss">&times;</dic>
+                            <img class="card-image" src="../../assets/card/nature.jpg" />
+                        </div>
+                        <div class="card-title">
+                            <h3>Our Changing Planet</h3>
+                            <p>by Kurt Wagner</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Visit ten places on our planet that are undergoing the biggest changes today.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="card-button">READ</button>
+                            <button class="card-button">BOOKMARK</button>
+                            <i class="card-icon fa fa-heart-o only-button" aria-hidden="true"></i>
+                            <i class="card-icon fa fa-share-alt only-button" aria-hidden="true"></i>
+                            <i class="card-icon fa fa-ellipsis-v only-button" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="code-example">
+                    <pre>
+                        <code class="language-html">
+                          <div class="language-markup">
+                            <div class="card">
+                                <div class="card-header">
+                                    <div class="card-badge">Trending</div>
+                                    <dic class="card-dismiss">&times;</dic>
+                                    <img class="card-image" src="../../assets/card/nature.jpg" />
+                                </div>
+                                <div class="card-title">
+                                    <h3>Our Changing Planet</h3>
+                                    <p>by Kurt Wagner</p>
+                                </div>
+                                <div class="card-text">
+                                    <p>Visit ten places on our planet that are undergoing the biggest changes today.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <button class="card-button">READ</button>
+                                    <button class="card-button">BOOKMARK</button>
+                                    <i class="card-icon fa fa-heart-o only-button" aria-hidden="true"></i>
+                                    <i class="card-icon fa fa-share-alt only-button" aria-hidden="true"></i>
+                                    <i class="card-icon fa fa-ellipsis-v only-button" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                          </div>
+                        </code>
+                    </pre>
+            </div>
+
+            <div class="section">
+                <h4 class="current-item">Card with text-overlay</h4>
+                <div>
+                    <div class="card card-overlay">
+                        <div class="overlay-text">NOT AVAILABLE</div>
+                        <img class="card-image" src="../../assets/card/nature.jpg" />
+                        <div class="card-title">
+                            <h3>Our Changing Planet</h3>
+                            <p>by Kurt Wagner</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Visit ten places on our planet that are undergoing the biggest changes today.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="card-button">READ</button>
+                            <button class="card-button">BOOKMARK</button>
+                            <i class="card-icon fa fa-heart-o" aria-hidden="true"></i>
+                            <i class="card-icon fa fa-share-alt" aria-hidden="true"></i>
+                            <i class="card-icon fa fa-ellipsis-v" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="code-example">
+                    <pre>
+                        <code class="language-html">
+                          <div class="language-markup">
+                            <div class="card card-overlay">
+                                <div class="overlay-text">NOT AVAILABLE</div>
+                                <img class="card-image" src="../../assets/card/nature.jpg" />
+                                <div class="card-title">
+                                    <h3>Our Changing Planet</h3>
+                                    <p>by Kurt Wagner</p>
+                                </div>
+                                <div class="card-text">
+                                    <p>Visit ten places on our planet that are undergoing the biggest changes today.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <button class="card-button">READ</button>
+                                    <button class="card-button">BOOKMARK</button>
+                                    <i class="card-icon fa fa-heart-o" aria-hidden="true"></i>
+                                    <i class="card-icon fa fa-share-alt" aria-hidden="true"></i>
+                                    <i class="card-icon fa fa-ellipsis-v" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                          </div>
+                        </code>
+                    </pre>
+                </div>
+            </div>
+        </div>
+
+       <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+       <script>
+        hljs.highlightAll();
+       </script>
+       <script src="../../preFormatter.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,158 @@
+@import url(https://feather-com.netlify.app/styles.css);
+
+.card-component{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    box-shadow: grey 0px 3px 8px;
+    max-width: 300px;
+    margin: 1rem;
+    border-radius: 8px;
+}
+
+.card:hover{
+    box-shadow: rgb(46, 44, 44) 0px 3px 8px;
+}
+
+.card-image{
+    max-height: 300px;
+    max-width: 300px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card-text{
+    margin: 16px;
+}
+
+.card-title{
+    margin: 16px;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.card-button {
+    cursor: pointer;
+    color: #6200ee;
+    background-color: transparent;
+    font-weight: 600;
+    border: none;
+    padding: 10px;
+  }
+
+  .card-button:hover {
+    background-color: #f9f5fe;
+  }
+
+  .card-icon{
+    cursor: pointer;
+    color: black;
+    padding: 10px;
+  }
+
+  .card-icon:hover {
+    border-radius: 50%;
+    background-color: #f9f5fe;
+  }
+
+  .card-title-2{
+      order: -1;
+  }
+
+  .only-button{
+      visibility: hidden;
+  }
+
+  .only-icon{
+    visibility: hidden;
+}
+
+.position{
+    position: relative;
+}
+
+.absolute{
+    color: white;
+    position:absolute;
+    bottom: 0;
+}
+
+.card-image-2{
+    height: 200px;
+    width: 300px;
+}
+
+.card-height{
+    height: 340px;
+}
+
+.card-horizontal{
+    display: flex;
+    align-items: flex-end;
+}
+
+.card-image-horizontal{
+    height: 6rem;
+    width: 6rem;
+}
+
+.card-horizontal-height{
+    height: 240px;
+}
+
+.card-header{
+    position: relative;
+}
+
+.card-badge{
+    position: absolute;
+    top: 1rem;
+    height: 1.5rem;
+    width: 4rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.card-dismiss{
+    position: absolute;
+    right: 0;
+    font-size: x-large;
+    background-color: var(--white-color);
+    padding: 0.1rem 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.card-overlay{
+    position: relative;
+    opacity: 0.5;
+    box-shadow: none;
+}
+
+.card-overlay:hover{
+    opacity: 0.5;
+    box-shadow: none;
+}
+
+.overlay-text{
+    align-self: center;
+    top: 10rem;
+    position: absolute;
+    padding: 0.9rem;
+    transform: rotate(45);
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
