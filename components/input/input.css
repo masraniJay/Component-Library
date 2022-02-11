@@ -1,0 +1,72 @@
+@import url(https://feather-com.netlify.app/styles.css);
+
+.section label {
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.input {
+    padding: 0.3rem;
+    margin: 0.5rem;
+    border: var(--black-color) solid 1px;
+    border-radius: 0.5rem;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.input-validation-error {
+    display: flex;
+    margin: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input-validation-error small {
+    padding: 0;
+    margin: 0 0 0 0.4rem;
+    color: red;
+}
+
+.input-validation-error input {
+    margin: 0;
+    border: none;
+    outline: red solid 2px;
+}
+
+.input-validation-error input:focus {
+    outline: red solid 2px;
+}
+
+.input-validation-success {
+    display: flex;
+    margin: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input-validation-success small {
+    padding: 0;
+    margin: 0 0 0 0.4rem;
+    color: green;
+}
+
+.input-validation-success input {
+    margin: 0;
+    border: none;
+    outline: green solid 2px;
+}
+
+.input-validation-success input:focus {
+    outline: green solid 2px;
+}
+
+.input-textarea {
+    width: 20rem;
+    height: 10rem;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: rgb(240, 226, 226);
+    border: var(--black-color) solid 2px;
+}
