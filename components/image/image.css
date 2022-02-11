@@ -1,13 +1,13 @@
 @import url(https://feather-com.netlify.app/styles.css);
 
-.image-responsive{
+.image-responsive {
     height: auto;
     max-width: 100%;
     border-radius: 0.5rem;
     padding: 1rem;
 }
 
-.image-round{
+.image-round {
     height: auto;
     width: 100%;
     border-radius: 50%;
