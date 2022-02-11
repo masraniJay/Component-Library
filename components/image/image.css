@@ -8,9 +8,7 @@
 }
 
 .image-round {
-    height: auto;
-    width: 100%;
     border-radius: 50%;
-    max-height: 15rem;
-    max-width: 15rem;
+    height: 15rem;
+    width: 15rem;
 }
