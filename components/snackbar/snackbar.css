@@ -1,0 +1,25 @@
+@import url(https://feather-com.netlify.app/styles.css);
+
+.snackbar{
+    padding: 10px;
+    margin: 1rem;
+    width: fit-content;
+    color: var(--white-color);
+    background-color: rgb(19, 14, 14);
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    border-radius: 5px;
+}
+
+.snackbar-button{
+    margin: 0.5rem;
+    color: var(--primary-color);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.snackbar-cancel{
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+}
