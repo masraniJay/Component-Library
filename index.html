@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
     <link rel="stylesheet" href="styles.css">
     <title>Feather UI</title>
 </head>
 
 <body>
     <header class="header">
-        <a class="logo" href="index.html" >Feather UI</a>
+        <a class="logo" href="index.html">Feather UI</a>
         <div class="navbar">
             <ul>
                 <li class="nav-item"><a href="index.html">Home</a></li>
@@ -22,16 +23,40 @@
 
     <main class="main">
         <div class="main-body">
-            <div class="main-heading">Build your projects efficiently using <span class="logo-name">Feather UI</span> </div>
+            <div class="main-heading">Build your projects efficiently using <span class="logo-name">Feather UI</span>
+            </div>
             <div class="main-subtitle">Feather UI is a really good option for you if you are looking for pre-built
                 components with superb styles. Use our components for your project.</div>
-                <div class="main-buttons">
-                    <a class="primary-button" href="components/avatar/avatar.html">Get Started</a>
-                    <a class="secondary-button" href="https://github.com/masraniJay/Component-Library">Github</a>
+            <div class="main-buttons">
+                <a class="primary-button" href="components/avatar/avatar.html">Get Started</a>
+                <a class="secondary-button" href="https://github.com/masraniJay/Component-Library">Github</a>
+            </div>
+        </div>
+
+        <div class="main-body code-use">
+            <div class="main-heading">How to use?</div>
+            <div class="main-subtitle">To install and start using the components in your project, simply add the
+                stylesheet given below inside your head tag.
+                <br>
+                Some components have fontawesome's icons used, so you'd have to link that too.
+            </div>
+                <div class="code-example">
+                    <pre>
+                        <code class="language-html">
+                          <div class="language-markup">
+<link rel="stylesheet" href="https://feather-com.netlify.app/feather.css">
+                          </div>
+                        </code>
+                    </pre>
                 </div>
         </div>
     </main>
 
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+    <script src="../../preFormatter.js"></script>
 </body>
 
 </html>

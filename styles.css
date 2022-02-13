@@ -56,13 +56,16 @@ body{
 
 .main{
     display: flex;
+    flex-direction: column;
     margin: 1rem;
     justify-content: center;
     align-items: center;
 }
 
 .main-body{
+    /* text-align: center; */
     margin: 2rem 20rem;
+    /* background-color: antiquewhite; */
 }
 
 .main-heading{
@@ -120,6 +123,10 @@ body{
 
 a{
     text-decoration: none;
+}
+
+.code-use{
+    text-align: center;
 }
 
 
