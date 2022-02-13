@@ -1,0 +1,36 @@
+@import url(https://feather-com.netlify.app/styles.css);
+
+.navigation{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    box-shadow: var(--black-color) 0px 2px 2px 0px;
+}
+
+.navigation-logo{
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.navigation-search{
+    padding: 0.3rem;
+    margin: 0.5rem;
+    width: 20rem;
+    border: var(--black-color) solid 1px;
+    border-radius: 0.5rem;
+}
+
+.navigation-search:focus{
+    outline: none;
+}
+
+.navigation-item{
+    padding: 0.3rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
